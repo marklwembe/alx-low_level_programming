@@ -6,14 +6,14 @@
  */
 int main(void)
 {
-	int i, n = 98;
-	int t1 = 1, t2 = 2;
-	int nextTerm = t1 + t2;
+	int i;
+	long int t1 = 1, t2 = 2;
+	long int nextTerm = t1 + t2;
 
-	printf("%d, %d, ", t1, t2);
-	for (i = 3; i <= n; ++i)
+	printf("%ld, %ld, ", t1, t2);
+	for (i = 3; i <= 98; ++i)
 	{
-		printf("%d, ", nextTerm);
+		printf("%ld, ", nextTerm);
 		t1 = t2;
 		t2 = nextTerm;
 		nextTerm = t1 + t2;
