@@ -1,7 +1,12 @@
-
+#include<stdio.h>
+/**
+ * main - The fibonacci sequence
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
-	int i, n;
+	int i, n = 98;
 	int t1 = 1, t2 = 2;
 	int nextTerm = t1 + t2;
 
@@ -13,5 +18,6 @@ int main(void)
 		t2 = nextTerm;
 		nextTerm = t1 + t2;
 	}
-	  return 0;
+	printf("\n");
+	return (0);
 }
