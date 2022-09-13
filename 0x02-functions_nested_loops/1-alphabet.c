@@ -1,12 +1,16 @@
 #include "main.h"
-
 /**
- * main - check the code
+ * Prints the alphabet.
  *
- * Return: Always 0.
+ * No return value
  */
-int main(void)
+void print_alphabet(void)
 {
-    print_alphabet();
-    return (0);
+	int i = 0;
+
+        while (i < 26) {
+			_putchar('a' + i);
+			++i;
+		}
+		_putchar('\n');
 }
