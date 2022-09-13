@@ -1,10 +1,15 @@
+#include "main.h"
+
 /**
- * It prints the alphabet 10 times
- *
- * Return: Nothing
- * 
+ * print_alphabet_x10 - Prints the latin alphabet 10 times
+ * @void - Takes no arguments
+ * Return: void
  */
-int _putchar(char c)
+void print_alphabet_x10(void)
 {
-	return (write(1, &c, 1));
+	int i = 0;
+	while (i < 10)
+	{
+	print_alphabet()
+	}
 }
