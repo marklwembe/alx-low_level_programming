@@ -6,17 +6,17 @@
  */
 void times_table(void)
 {
-	int a = 0, b;
+	int a, b;
 	int result;
 
-	while (a < 10)
+	for (a = 0; a < 10; a++)
 	{
 		for (b = 0; b < 10; b++)
 		{
 			result = b * a;
 			if (b == 0)
 				_putchar(result + '0');
-			if (result < 20 && b != 0)
+			if (result < 10 && b != 0)
 			{
 				_putchar(',');
 				_putchar(' ');
@@ -32,6 +32,5 @@ void times_table(void)
 			}
 		}
 		_putchar('\n');
-		a++;
 	}
 }
