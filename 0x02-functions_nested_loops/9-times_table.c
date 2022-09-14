@@ -13,7 +13,7 @@ void times_table(void)
 	{
 		b = 0;
 
-		while (b < 10)
+		for (b = 0; b < 10; b++)
 		{
 			result = b * a;
 			if (b == 0)
@@ -32,9 +32,8 @@ void times_table(void)
 				_putchar((result / 10) + '0');
 				_putchar((result % 10) + '0');
 			}
-			++b;
 		}
-		++a;
 		_putchar('\n');
+		++a;
 	}
 }
