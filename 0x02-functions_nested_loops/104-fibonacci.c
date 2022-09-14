@@ -7,13 +7,13 @@
 int main(void)
 {
 	int i;
-	unsigned long int t1 = 1, t2 = 2e;
+	unsigned long int t1 = 1, t2 = 2;
 	unsigned long int nextTerm = t1 + t2;
 
-	printf("%llu, %llu, ", t1, t2);
+	printf("%lu, %lu, ", t1, t2);
 	for (i = 3; i <= 98; ++i)
 	{
-		printf("%llu, ", nextTerm);
+		printf("%lu, ", nextTerm);
 		t1 = t2;
 		t2 = nextTerm;
 		nextTerm = t1 + t2;
