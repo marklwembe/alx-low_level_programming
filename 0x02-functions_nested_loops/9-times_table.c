@@ -11,8 +11,6 @@ void times_table(void)
 
 	while (a < 10)
 	{
-		b = 0;
-
 		for (b = 0; b < 10; b++)
 		{
 			result = b * a;
