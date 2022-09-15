@@ -6,9 +6,9 @@
 
 int main(void)
 {
-	long int t1 = 1, t2 = 2, t3, even_sum;
+	long int t1 = 1, t2 = 2, t3, even_sum = 0;
 
-	while ( t1 <= 4000000)
+	while (t1 <= 4000000)
 	{
 		if (t1 % 2 == 0)
 			even_sum += t1;
