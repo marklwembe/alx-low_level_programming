@@ -7,9 +7,8 @@
 int main(void)
 {
 	int i = 0;
-	long int t1 = 1, t2 =2, sum;
-	
-	printf("%ld, %ld, ", t1, t2);
+	long int t1 = 1, t2 = 2, sum;
+
 	while (i < 50)
 	{
 		if (i != 49)
