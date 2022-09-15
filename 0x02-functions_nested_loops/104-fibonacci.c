@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	unsigned long int i, term_1, term_2, term_1_div, term_2_div
+	unsigned long int i, term_1, term_2, term_1_div, term_2_div;
 	unsigned long int result_1, result_2;
 
 	term_1 = 1;
