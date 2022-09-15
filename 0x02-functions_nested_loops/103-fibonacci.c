@@ -6,7 +6,6 @@
 
 int main(void)
 {
-	int i = 0;
 	long int t1 = 1, t2 = 2, t3, even_sum;
 
 	while ( t1 <= 4000000)
