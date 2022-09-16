@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _isupper - Check if given number rep an ASCII uppercase letter
- * @c - a
- * Return - 1 if uppercase 0 otherwise
+ * @c: a
+ * Return: - 1 if uppercase 0 otherwise
  */
 int _isupper(int c)
 {
