@@ -1,7 +1,7 @@
 /**
  * _strlen - counts the length of given string
  * @s: char pointer variable to string
- * Returns: number representing length of string
+ * Return: number representing length of string
  */
 
 int _strlen(char *s)
