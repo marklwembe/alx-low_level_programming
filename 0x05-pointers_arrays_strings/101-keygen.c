@@ -1,29 +1,31 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
- * puts_half - prints half of a string.
- * @str: input string.
- * Return: no return.
+ * main - generates keygen.
+ * Return: 0 Always.
  */
-void puts_half(char *str)
+int main(void)
 {
-	int count = 0, i;
+	int r = 0, c = 0;
 
-	while (count >= 0)
+	time_t t;
+
+	srand((unsigned int) time(&t));
+	while (c < 2772)
 	{
-		if (str[count] == '\0')
+		r = rand() % 128;
+		if ((c + r) > 2772)
 			break;
-		count++;
+
+		c = c + r;
+
+		printf("%c", r);
+
 	}
 
-	if (count % 2 == 1)
-		i = count / 2;
+	printf("%c\n", (2772 - c));
 
-	else
-		i = (count - 1) / 2;
-
-	for (i++; i < count; i++)
-		_putchar(str[i]);
-
-	_putchar('\n');
+	return (0);
 
 }
