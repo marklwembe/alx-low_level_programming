@@ -1,10 +1,10 @@
 #include "main.h"
-
 /**
  * _atoi - Converts a string to an integer
  * @s: Pointer to string
  * Return: Integer
  */
+
 int _atoi(char *s)
 {
 	unsigned int count = 0, size = 0, oi = 0, pn = 1, m = 1, i;
