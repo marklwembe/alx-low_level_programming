@@ -19,10 +19,11 @@ char *cap_string(char *s)
 		{
 			s[0] = s[0] - 32;
 		}
-		if (s[escape] == ' ' || s[escape] == '\t' || s[escape] == '\n' || s[escape] == ','
-			|| s[escape] == ';' || s[escape] == '.' || s[escape] == '!'	|| s[escape] == '?'
-			|| s[escape] == '"' || s[escape] == '(' || s[escape] == ')' || s[escape] == '{'
-			|| s[escape] == '}')
+		if (s[escape] == ' ' || s[escape] == '\t' || s[escape] == '\n' || 
+			s[escape] == ',' || s[escape] == ';' || s[escape] == '.' ||
+			s[escape] == '!'	|| s[escape] == '?'	|| s[escape] == '"'||
+			s[escape] == '(' || s[escape] == ')' || s[escape] == '{' ||
+			s[escape] == '}')
 		{
 			if (s[escape + 1] >= 97 && s[escape + 1] <= 122)
 			{
