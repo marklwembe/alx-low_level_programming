@@ -5,19 +5,19 @@
  */
 char *leet(char *s)
 {
-	int count, leet;
+	int count = 0, leet;
 	char letter[] = "aAeEoOtTlL";
 	char code[] = "4433007711";
 
-	count = 0;
+
 	while (s[count] != '\0')
 	{
 		leet = 0;
 		while (leet < 10)
 		{
-			if (letters[leet] == s[count])
+			if (letter[leet] == s[count])
 			{
-				s[count] = Num[leet];
+				s[count] = code[leet];
 			}
 			leet++;
 		}
