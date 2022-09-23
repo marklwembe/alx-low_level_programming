@@ -5,7 +5,7 @@
  */
 void print_number(int n)
 {
-	unsigned int res, dnd, count;
+	unsigned int res, dnd, count = 1;
 
 	if (n < 0)
 	{
@@ -18,16 +18,15 @@ void print_number(int n)
 	}
 
 	dnd = res;
-	count = 1;
-
 	while (dnd > 9)
 	{
-		dnd /= 10;
-		count *= 10;
+		dnd = dnd / 10;
+		count = count * 10;
 	}
 
-	for (; count >= 1; count /= 10)
+	while ( count >= 1)
 	{
 		_putchar(((res / count) % 10) + 48);
+		count /= 10
 	}
 }
