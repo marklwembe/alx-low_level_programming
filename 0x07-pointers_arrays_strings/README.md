@@ -1,1 +1,1 @@
-This is a project on use of more pointers arrays and strings.
+Tasks for project 0x07-pointers_arrays_strings: Even more pointers arrays and strings
