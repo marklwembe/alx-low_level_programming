@@ -1,14 +1,14 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_line - Prints a given amount of a string
- * @c: Pointer to string to be stored
- * @s: Number of bytes to be printed
+ * print_line - prints a s bytes of a buffer
+ * @c: buffer
+ * @s: bytes of buffer
  * @l: line of buffer
  * Return: void
  */
 
-void print_line(char *c, int size, int l)
+void print_line(char *c, int s, int l)
 {
 int x, y;
 
