@@ -4,7 +4,7 @@
  * print_line - prints a s bytes of a buffer
  * @c: buff
  * @s: Number of bytes to buffer
- * @l: line of buffer   
+ * @l: line of buffer
  * Return: void
  */
 
