@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* partial_string_match - Check if part of string in after_wldcd matches 
+* partial_string_match - Check if part of string in after_wldcd matches
 * @s1: Pointer to first string
 * @s2: Pointer to second string
 * @after_wldcd: Position right after wildcard
