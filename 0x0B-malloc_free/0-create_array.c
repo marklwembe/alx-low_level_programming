@@ -8,13 +8,13 @@
 
 char *create_array(unsigned int size, char c)
 {
-	char random[size];
+	char arr[size];
 	
-	char random[0] = c;
+	arr[0] = c;
 	if ( size == 0)
 	{
-		return (NULL);
+		return ('\0');
 	}
 	
-	return (random);
+	return (&arr);
 }
