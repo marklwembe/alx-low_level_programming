@@ -11,8 +11,8 @@ char *create_array(unsigned int size, char c)
 {
 	char *string;
 	unsigned int x = 0;
-	
-	if ( size == 0)
+
+	if (size == 0)
 	{
 		return (NULL);
 	}
