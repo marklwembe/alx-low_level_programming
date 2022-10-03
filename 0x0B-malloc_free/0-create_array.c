@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * create_array - Function that creates an array of chars
  * @size: Size of the array
@@ -21,7 +22,8 @@ char *create_array(unsigned int size, char c)
 	if (string == NULL)
 		return (NULL);
 
-	while (x < size) {
+	while (x < size)
+	{
 		string[x] = c;
 		x++;
 	}
