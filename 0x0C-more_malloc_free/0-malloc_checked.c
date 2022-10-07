@@ -8,11 +8,11 @@
 void *malloc_checked(unsigned int b)
 {
 	void *reserved_space;
-	
+
 	reserved_space =  malloc(b);
 
 	if (reserved_space == NULL)
-		exit (98);
+		exit(98);
 	return (reserved_space);
 }
 
