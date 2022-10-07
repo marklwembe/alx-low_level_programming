@@ -7,6 +7,8 @@
 
 void *malloc_checked(unsigned int b)
 {
-	int *reserved_space = malloc(b, NULL);
+	int *reserved_space = malloc(b);
+
 	return (reserved_space);
 }
+
