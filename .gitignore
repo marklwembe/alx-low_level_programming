@@ -1,5 +1,2 @@
 #Executable files
 *.exe
-
-#*-main.c files
-*main.c
